@@ -1,0 +1,5085 @@
+[
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "GetQueryResults" },
+    { "field": "count(*)", "value": "89" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "GenerateDataKey" },
+    { "field": "count(*)", "value": "556879" }
+  ],
+  [
+    { "field": "eventSource", "value": "health.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeEventAggregates" },
+    { "field": "count(*)", "value": "10502" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketAcl" },
+    { "field": "count(*)", "value": "478336" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeMetricFilters" },
+    { "field": "count(*)", "value": "1215" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "CreateToken" },
+    { "field": "count(*)", "value": "208" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "GetRoleCredentials" },
+    { "field": "count(*)", "value": "3436" }
+  ],
+  [
+    { "field": "eventSource", "value": "sts.amazonaws.com" },
+    { "field": "eventName", "value": "AssumeRole" },
+    { "field": "count(*)", "value": "767057" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeSubnets" },
+    { "field": "count(*)", "value": "36428" }
+  ],
+  [
+    { "field": "eventSource", "value": "sts.amazonaws.com" },
+    { "field": "eventName", "value": "AssumeRoleWithSAML" },
+    { "field": "count(*)", "value": "4008" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "StartQuery" },
+    { "field": "count(*)", "value": "262" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudfront.amazonaws.com" },
+    { "field": "eventName", "value": "CreateInvalidation" },
+    { "field": "count(*)", "value": "1018" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudfront.amazonaws.com" },
+    { "field": "eventName", "value": "ListDistributions" },
+    { "field": "count(*)", "value": "1021" }
+  ],
+  [
+    { "field": "eventSource", "value": "signin.amazonaws.com" },
+    { "field": "eventName", "value": "UserAuthentication" },
+    { "field": "count(*)", "value": "261" }
+  ],
+  [
+    { "field": "eventSource", "value": "resource-explorer-2.amazonaws.com" },
+    { "field": "eventName", "value": "ListIndexes" },
+    { "field": "count(*)", "value": "111" }
+  ],
+  [
+    { "field": "eventSource", "value": "monitoring.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAlarms" },
+    { "field": "count(*)", "value": "1932" }
+  ],
+  [
+    { "field": "eventSource", "value": "oam.amazonaws.com" },
+    { "field": "eventName", "value": "ListSinks" },
+    { "field": "count(*)", "value": "178" }
+  ],
+  [
+    { "field": "eventSource", "value": "application-insights.amazonaws.com" },
+    { "field": "eventName", "value": "ListApplications" },
+    { "field": "count(*)", "value": "249" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeLogStreams" },
+    { "field": "count(*)", "value": "2097" }
+  ],
+  [
+    { "field": "eventSource", "value": "securityhub.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeHub" },
+    { "field": "count(*)", "value": "95" }
+  ],
+  [
+    { "field": "eventSource", "value": "signin.amazonaws.com" },
+    { "field": "eventName", "value": "ConsoleLogin" },
+    { "field": "count(*)", "value": "616" }
+  ],
+  [
+    {
+      "field": "eventSource",
+      "value": "servicecatalog-appregistry.amazonaws.com"
+    },
+    { "field": "eventName", "value": "ListApplications" },
+    { "field": "count(*)", "value": "104" }
+  ],
+  [
+    { "field": "eventSource", "value": "ram.amazonaws.com" },
+    { "field": "eventName", "value": "ListResources" },
+    { "field": "count(*)", "value": "119" }
+  ],
+  [
+    { "field": "eventSource", "value": "monitoring.amazonaws.com" },
+    { "field": "eventName", "value": "GetDashboard" },
+    { "field": "count(*)", "value": "163" }
+  ],
+  [
+    { "field": "eventSource", "value": "monitoring.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeInsightRules" },
+    { "field": "count(*)", "value": "219" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeLogGroups" },
+    { "field": "count(*)", "value": "1224" }
+  ],
+  [
+    { "field": "eventSource", "value": "resource-groups.amazonaws.com" },
+    { "field": "eventName", "value": "ListGroups" },
+    { "field": "count(*)", "value": "4180" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListApplications" },
+    { "field": "count(*)", "value": "432" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListProfilesForApplication" },
+    { "field": "count(*)", "value": "1007" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "Federate" },
+    { "field": "count(*)", "value": "573" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "Authenticate" },
+    { "field": "count(*)", "value": "261" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAccountAttributes" },
+    { "field": "count(*)", "value": "2113" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "GetCostAndUsage" },
+    { "field": "count(*)", "value": "406" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "GetCostForecast" },
+    { "field": "count(*)", "value": "349" }
+  ],
+  [
+    { "field": "eventSource", "value": "sts.amazonaws.com" },
+    { "field": "eventName", "value": "AssumeRoleWithWebIdentity" },
+    { "field": "count(*)", "value": "1910" }
+  ],
+  [
+    { "field": "eventSource", "value": "sts.amazonaws.com" },
+    { "field": "eventName", "value": "GetCallerIdentity" },
+    { "field": "count(*)", "value": "10540" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "Decrypt" },
+    { "field": "count(*)", "value": "1952057" }
+  ],
+  [
+    { "field": "eventSource", "value": "es.amazonaws.com" },
+    { "field": "eventName", "value": "ListDomainNames" },
+    { "field": "count(*)", "value": "1199" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicediscovery.amazonaws.com" },
+    { "field": "eventName", "value": "ListNamespaces" },
+    { "field": "count(*)", "value": "304" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDBClusters" },
+    { "field": "count(*)", "value": "694" }
+  ],
+  [
+    { "field": "eventSource", "value": "iot.amazonaws.com" },
+    { "field": "eventName", "value": "ListDimensions" },
+    { "field": "count(*)", "value": "75" }
+  ],
+  [
+    { "field": "eventSource", "value": "dms.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeReplicationTasks" },
+    { "field": "count(*)", "value": "220" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "ListConnections" },
+    { "field": "count(*)", "value": "22" }
+  ],
+  [
+    { "field": "eventSource", "value": "lex.amazonaws.com" },
+    { "field": "eventName", "value": "ListBots" },
+    { "field": "count(*)", "value": "25" }
+  ],
+  [
+    { "field": "eventSource", "value": "elasticloadbalancing.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeLoadBalancers" },
+    { "field": "count(*)", "value": "4477" }
+  ],
+  [
+    { "field": "eventSource", "value": "sagemaker.amazonaws.com" },
+    { "field": "eventName", "value": "ListModels" },
+    { "field": "count(*)", "value": "291" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "RetireGrant" },
+    { "field": "count(*)", "value": "1020" }
+  ],
+  [
+    { "field": "eventSource", "value": "dms.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeCertificates" },
+    { "field": "count(*)", "value": "231" }
+  ],
+  [
+    { "field": "eventSource", "value": "datasync.amazonaws.com" },
+    { "field": "eventName", "value": "ListLocations" },
+    { "field": "count(*)", "value": "1202" }
+  ],
+  [
+    { "field": "eventSource", "value": "detective.amazonaws.com" },
+    { "field": "eventName", "value": "ListGraphs" },
+    { "field": "count(*)", "value": "231" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "ListEmailTemplates" },
+    { "field": "count(*)", "value": "134" }
+  ],
+  [
+    { "field": "eventSource", "value": "appconfig.amazonaws.com" },
+    { "field": "eventName", "value": "ListApplications" },
+    { "field": "count(*)", "value": "316" }
+  ],
+  [
+    { "field": "eventSource", "value": "lightsail.amazonaws.com" },
+    { "field": "eventName", "value": "GetCertificates" },
+    { "field": "count(*)", "value": "89" }
+  ],
+  [
+    { "field": "eventSource", "value": "guardduty.amazonaws.com" },
+    { "field": "eventName", "value": "ListDetectors" },
+    { "field": "count(*)", "value": "837" }
+  ],
+  [
+    { "field": "eventSource", "value": "schemas.amazonaws.com" },
+    { "field": "eventName", "value": "ListRegistries" },
+    { "field": "count(*)", "value": "184" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeVpnGateways" },
+    { "field": "count(*)", "value": "1421" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeHosts" },
+    { "field": "count(*)", "value": "1439" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeVpnConnections" },
+    { "field": "count(*)", "value": "1367" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTaskDefinition" },
+    { "field": "count(*)", "value": "2094" }
+  ],
+  [
+    { "field": "eventSource", "value": "batch.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeJobQueues" },
+    { "field": "count(*)", "value": "273" }
+  ],
+  [
+    { "field": "eventSource", "value": "guardduty.amazonaws.com" },
+    { "field": "eventName", "value": "GetDetector" },
+    { "field": "count(*)", "value": "357" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudcontrolapi.amazonaws.com" },
+    { "field": "eventName", "value": "ListResources" },
+    { "field": "count(*)", "value": "273" }
+  ],
+  [
+    { "field": "eventSource", "value": "access-analyzer.amazonaws.com" },
+    { "field": "eventName", "value": "ListAnalyzers" },
+    { "field": "count(*)", "value": "550" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "ListTaskDefinitionFamilies" },
+    { "field": "count(*)", "value": "346" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "ListApiDestinations" },
+    { "field": "count(*)", "value": "116" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeInstances" },
+    { "field": "count(*)", "value": "167603" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeVpcs" },
+    { "field": "count(*)", "value": "4506" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeSecurityGroups" },
+    { "field": "count(*)", "value": "23900" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeCustomerGateways" },
+    { "field": "count(*)", "value": "1367" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeRouteTables" },
+    { "field": "count(*)", "value": "7686" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeNetworkAcls" },
+    { "field": "count(*)", "value": "7791" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAddresses" },
+    { "field": "count(*)", "value": "2625" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeNetworkInterfaces" },
+    { "field": "count(*)", "value": "2914" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeVolumes" },
+    { "field": "count(*)", "value": "2023" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeInternetGateways" },
+    { "field": "count(*)", "value": "1768" }
+  ],
+  [
+    { "field": "eventSource", "value": "codepipeline.amazonaws.com" },
+    { "field": "eventName", "value": "ListPipelines" },
+    { "field": "count(*)", "value": "758" }
+  ],
+  [
+    { "field": "eventSource", "value": "elasticfilesystem.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAccessPoints" },
+    { "field": "count(*)", "value": "644" }
+  ],
+  [
+    { "field": "eventSource", "value": "codepipeline.amazonaws.com" },
+    { "field": "eventName", "value": "GetPipeline" },
+    { "field": "count(*)", "value": "2142" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "HeadBucket" },
+    { "field": "count(*)", "value": "1566" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "ListBuckets" },
+    { "field": "count(*)", "value": "1982" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketPublicAccessBlock" },
+    { "field": "count(*)", "value": "12790" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketObjectLockConfiguration" },
+    { "field": "count(*)", "value": "7837" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketEncryption" },
+    { "field": "count(*)", "value": "9181" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketPolicy" },
+    { "field": "count(*)", "value": "8754" }
+  ],
+  [
+    { "field": "eventSource", "value": "eks.amazonaws.com" },
+    { "field": "eventName", "value": "ListClusters" },
+    { "field": "count(*)", "value": "954" }
+  ],
+  [
+    { "field": "eventSource", "value": "batch.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeComputeEnvironments" },
+    { "field": "count(*)", "value": "273" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeEventBus" },
+    { "field": "count(*)", "value": "154" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "373" }
+  ],
+  [
+    { "field": "eventSource", "value": "imagebuilder.amazonaws.com" },
+    { "field": "eventName", "value": "ListDistributionConfigurations" },
+    { "field": "count(*)", "value": "148" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53resolver.amazonaws.com" },
+    { "field": "eventName", "value": "ListFirewallDomainLists" },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketLocation" },
+    { "field": "count(*)", "value": "38066" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketVersioning" },
+    { "field": "count(*)", "value": "10001" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketRequestPayment" },
+    { "field": "count(*)", "value": "7608" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketNotification" },
+    { "field": "count(*)", "value": "6959" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccelerateConfiguration" },
+    { "field": "count(*)", "value": "7608" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketCors" },
+    { "field": "count(*)", "value": "7622" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketWebsite" },
+    { "field": "count(*)", "value": "8055" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketLogging" },
+    { "field": "count(*)", "value": "7608" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketReplication" },
+    { "field": "count(*)", "value": "8771" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketLifecycle" },
+    { "field": "count(*)", "value": "7715" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketTagging" },
+    { "field": "count(*)", "value": "8826" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeVpcEndpoints" },
+    { "field": "count(*)", "value": "2214" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "ListEventBuses" },
+    { "field": "count(*)", "value": "170" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicediscovery.amazonaws.com" },
+    { "field": "eventName", "value": "ListServices" },
+    { "field": "count(*)", "value": "165" }
+  ],
+  [
+    { "field": "eventSource", "value": "glue.amazonaws.com" },
+    { "field": "eventName", "value": "ListMLTransforms" },
+    { "field": "count(*)", "value": "39" }
+  ],
+  [
+    { "field": "eventSource", "value": "glue.amazonaws.com" },
+    { "field": "eventName", "value": "ListJobs" },
+    { "field": "count(*)", "value": "205" }
+  ],
+  [
+    { "field": "eventSource", "value": "backup.amazonaws.com" },
+    { "field": "eventName", "value": "ListBackupPlans" },
+    { "field": "count(*)", "value": "1214" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "GetTopicAttributes" },
+    { "field": "count(*)", "value": "797" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "776" }
+  ],
+  [
+    { "field": "eventSource", "value": "acm.amazonaws.com" },
+    { "field": "eventName", "value": "ListCertificates" },
+    { "field": "count(*)", "value": "913" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "ListActivities" },
+    { "field": "count(*)", "value": "325" }
+  ],
+  [
+    { "field": "eventSource", "value": "iotevents.amazonaws.com" },
+    { "field": "eventName", "value": "ListDetectorModels" },
+    { "field": "count(*)", "value": "147" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeGlobalClusters" },
+    { "field": "count(*)", "value": "40" }
+  ],
+  [
+    { "field": "eventSource", "value": "workspaces.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeWorkspaces" },
+    { "field": "count(*)", "value": "277" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "ListTopics" },
+    { "field": "count(*)", "value": "797" }
+  ],
+  [
+    { "field": "eventSource", "value": "guardduty.amazonaws.com" },
+    { "field": "eventName", "value": "ListThreatIntelSets" },
+    { "field": "count(*)", "value": "170" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "DescribeNetworkInsightsAccessScopeAnalyses"
+    },
+    { "field": "count(*)", "value": "161" }
+  ],
+  [
+    { "field": "eventSource", "value": "kinesis.amazonaws.com" },
+    { "field": "eventName", "value": "ListStreams" },
+    { "field": "count(*)", "value": "1188" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTransitGatewayVpcAttachments" },
+    { "field": "count(*)", "value": "253" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "ListObjects" },
+    { "field": "count(*)", "value": "3387" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "PutObject" },
+    { "field": "count(*)", "value": "849" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteObject" },
+    { "field": "count(*)", "value": "267" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeLaunchConfigurations" },
+    { "field": "count(*)", "value": "2527" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DescribePolicies" },
+    { "field": "count(*)", "value": "2656" }
+  ],
+  [
+    { "field": "eventSource", "value": "redshift.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeEventSubscriptions" },
+    { "field": "count(*)", "value": "644" }
+  ],
+  [
+    { "field": "eventSource", "value": "redshift.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeClusterSubnetGroups" },
+    { "field": "count(*)", "value": "664" }
+  ],
+  [
+    { "field": "eventSource", "value": "redshift.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeClusterSecurityGroups" },
+    { "field": "count(*)", "value": "644" }
+  ],
+  [
+    { "field": "eventSource", "value": "redshift.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeClusterParameterGroups" },
+    { "field": "count(*)", "value": "664" }
+  ],
+  [
+    { "field": "eventSource", "value": "redshift.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeClusterSnapshots" },
+    { "field": "count(*)", "value": "644" }
+  ],
+  [
+    { "field": "eventSource", "value": "redshift.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeClusters" },
+    { "field": "count(*)", "value": "665" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudtrail.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTrails" },
+    { "field": "count(*)", "value": "1438" }
+  ],
+  [
+    { "field": "eventSource", "value": "elasticfilesystem.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeFileSystems" },
+    { "field": "count(*)", "value": "690" }
+  ],
+  [
+    { "field": "eventSource", "value": "workspaces.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeConnectionAliases" },
+    { "field": "count(*)", "value": "273" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsOfResource" },
+    { "field": "count(*)", "value": "1947" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeContinuousBackups" },
+    { "field": "count(*)", "value": "1985" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "ListTables" },
+    { "field": "count(*)", "value": "1465" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTable" },
+    { "field": "count(*)", "value": "3351" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "GetRegistryPolicy" },
+    { "field": "count(*)", "value": "146" }
+  ],
+  [
+    { "field": "eventSource", "value": "iot.amazonaws.com" },
+    { "field": "eventName", "value": "ListAuthorizers" },
+    { "field": "count(*)", "value": "75" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloud9.amazonaws.com" },
+    { "field": "eventName", "value": "ListEnvironments" },
+    { "field": "count(*)", "value": "108" }
+  ],
+  [
+    { "field": "eventSource", "value": "mediapackage.amazonaws.com" },
+    { "field": "eventName", "value": "ListPackagingConfigurations" },
+    { "field": "count(*)", "value": "32" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeVpcPeeringConnections" },
+    { "field": "count(*)", "value": "714" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "ListConfigurationSets" },
+    { "field": "count(*)", "value": "213" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeguru-reviewer.amazonaws.com" },
+    { "field": "eventName", "value": "ListRepositoryAssociations" },
+    { "field": "count(*)", "value": "33" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAutoScalingGroups" },
+    { "field": "count(*)", "value": "1931951" }
+  ],
+  [
+    { "field": "eventSource", "value": "iot.amazonaws.com" },
+    { "field": "eventName", "value": "ListSecurityProfiles" },
+    { "field": "count(*)", "value": "78" }
+  ],
+  [
+    { "field": "eventSource", "value": "dms.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeEventSubscriptions" },
+    { "field": "count(*)", "value": "273" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeStateMachine" },
+    { "field": "count(*)", "value": "466" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "ListStateMachines" },
+    { "field": "count(*)", "value": "416" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "297" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53resolver.amazonaws.com" },
+    { "field": "eventName", "value": "GetResolverRuleAssociation" },
+    { "field": "count(*)", "value": "273" }
+  ],
+  [
+    { "field": "eventSource", "value": "athena.amazonaws.com" },
+    { "field": "eventName", "value": "GetDataCatalog" },
+    { "field": "count(*)", "value": "231" }
+  ],
+  [
+    { "field": "eventSource", "value": "athena.amazonaws.com" },
+    { "field": "eventName", "value": "ListDataCatalogs" },
+    { "field": "count(*)", "value": "262" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "ListArchives" },
+    { "field": "count(*)", "value": "118" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53resolver.amazonaws.com" },
+    { "field": "eventName", "value": "ListResolverRuleAssociations" },
+    { "field": "count(*)", "value": "273" }
+  ],
+  [
+    { "field": "eventSource", "value": "iotevents.amazonaws.com" },
+    { "field": "eventName", "value": "ListAlarmModels" },
+    { "field": "count(*)", "value": "131" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeScheduledActions" },
+    { "field": "count(*)", "value": "2634" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeNatGateways" },
+    { "field": "count(*)", "value": "1189" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeFlowLogs" },
+    { "field": "count(*)", "value": "794" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTransitGatewayRouteTables" },
+    { "field": "count(*)", "value": "253" }
+  ],
+  [
+    { "field": "eventSource", "value": "dms.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeReplicationInstances" },
+    { "field": "count(*)", "value": "232" }
+  ],
+  [
+    { "field": "eventSource", "value": "iot.amazonaws.com" },
+    { "field": "eventName", "value": "ListPolicies" },
+    { "field": "count(*)", "value": "40" }
+  ],
+  [
+    { "field": "eventSource", "value": "glue.amazonaws.com" },
+    { "field": "eventName", "value": "GetClassifiers" },
+    { "field": "count(*)", "value": "140" }
+  ],
+  [
+    { "field": "eventSource", "value": "imagebuilder.amazonaws.com" },
+    { "field": "eventName", "value": "ListContainerRecipes" },
+    { "field": "count(*)", "value": "155" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeLaunchTemplates" },
+    { "field": "count(*)", "value": "931" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeLaunchTemplateVersions" },
+    { "field": "count(*)", "value": "496" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTrafficMirrorSessions" },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "schemas.amazonaws.com" },
+    { "field": "eventName", "value": "ListDiscoverers" },
+    { "field": "count(*)", "value": "81" }
+  ],
+  [
+    { "field": "eventSource", "value": "kinesisanalytics.amazonaws.com" },
+    { "field": "eventName", "value": "ListApplications" },
+    { "field": "count(*)", "value": "74" }
+  ],
+  [
+    { "field": "eventSource", "value": "transfer.amazonaws.com" },
+    { "field": "eventName", "value": "ListWorkflows" },
+    { "field": "count(*)", "value": "85" }
+  ],
+  [
+    { "field": "eventSource", "value": "sagemaker.amazonaws.com" },
+    { "field": "eventName", "value": "ListEndpointConfigs" },
+    { "field": "count(*)", "value": "26" }
+  ],
+  [
+    { "field": "eventSource", "value": "iot.amazonaws.com" },
+    { "field": "eventName", "value": "ListCustomMetrics" },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "ListClusters" },
+    { "field": "count(*)", "value": "1479" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeServices" },
+    { "field": "count(*)", "value": "1120" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "ListServices" },
+    { "field": "count(*)", "value": "799" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "662" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53resolver.amazonaws.com" },
+    { "field": "eventName", "value": "ListResolverRules" },
+    { "field": "count(*)", "value": "285" }
+  ],
+  [
+    { "field": "eventSource", "value": "backup.amazonaws.com" },
+    { "field": "eventName", "value": "ListReportPlans" },
+    { "field": "count(*)", "value": "110" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53resolver.amazonaws.com" },
+    { "field": "eventName", "value": "ListResolverEndpoints" },
+    { "field": "count(*)", "value": "285" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53resolver.amazonaws.com" },
+    { "field": "eventName", "value": "GetResolverRule" },
+    { "field": "count(*)", "value": "273" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDBSnapshots" },
+    { "field": "count(*)", "value": "675" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeEventSubscriptions" },
+    { "field": "count(*)", "value": "667" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDBInstances" },
+    { "field": "count(*)", "value": "779" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDBSubnetGroups" },
+    { "field": "count(*)", "value": "675" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDBSecurityGroups" },
+    { "field": "count(*)", "value": "667" }
+  ],
+  [
+    { "field": "eventSource", "value": "guardduty.amazonaws.com" },
+    { "field": "eventName", "value": "ListIPSets" },
+    { "field": "count(*)", "value": "162" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDBClusterSnapshots" },
+    { "field": "count(*)", "value": "673" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "ListContactLists" },
+    { "field": "count(*)", "value": "168" }
+  ],
+  [
+    { "field": "eventSource", "value": "kafka.amazonaws.com" },
+    { "field": "eventName", "value": "ListClusters" },
+    { "field": "count(*)", "value": "298" }
+  ],
+  [
+    { "field": "eventSource", "value": "mediapackage.amazonaws.com" },
+    { "field": "eventName", "value": "ListPackagingGroups" },
+    { "field": "count(*)", "value": "85" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTrafficMirrorTargets" },
+    { "field": "count(*)", "value": "22" }
+  ],
+  [
+    { "field": "eventSource", "value": "athena.amazonaws.com" },
+    { "field": "eventName", "value": "GetWorkGroup" },
+    { "field": "count(*)", "value": "237" }
+  ],
+  [
+    { "field": "eventSource", "value": "athena.amazonaws.com" },
+    { "field": "eventName", "value": "ListWorkGroups" },
+    { "field": "count(*)", "value": "232" }
+  ],
+  [
+    { "field": "eventSource", "value": "athena.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "231" }
+  ],
+  [
+    { "field": "eventSource", "value": "elasticmapreduce.amazonaws.com" },
+    { "field": "eventName", "value": "ListSecurityConfigurations" },
+    { "field": "count(*)", "value": "344" }
+  ],
+  [
+    { "field": "eventSource", "value": "backup.amazonaws.com" },
+    { "field": "eventName", "value": "ListBackupVaults" },
+    { "field": "count(*)", "value": "1212" }
+  ],
+  [
+    { "field": "eventSource", "value": "amazonmq.amazonaws.com" },
+    { "field": "eventName", "value": "ListBrokers" },
+    { "field": "count(*)", "value": "109" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "GetKeyPolicy" },
+    { "field": "count(*)", "value": "4817" }
+  ],
+  [
+    { "field": "eventSource", "value": "imagebuilder.amazonaws.com" },
+    { "field": "eventName", "value": "ListInfrastructureConfigurations" },
+    { "field": "count(*)", "value": "147" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeKey" },
+    { "field": "count(*)", "value": "5471" }
+  ],
+  [
+    { "field": "eventSource", "value": "fis.amazonaws.com" },
+    { "field": "eventName", "value": "ListExperimentTemplates" },
+    { "field": "count(*)", "value": "120" }
+  ],
+  [
+    { "field": "eventSource", "value": "guardduty.amazonaws.com" },
+    { "field": "eventName", "value": "ListFilters" },
+    { "field": "count(*)", "value": "116" }
+  ],
+  [
+    { "field": "eventSource", "value": "schemas.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeRegistry" },
+    { "field": "count(*)", "value": "117" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "ListKeys" },
+    { "field": "count(*)", "value": "677" }
+  ],
+  [
+    { "field": "eventSource", "value": "datasync.amazonaws.com" },
+    { "field": "eventName", "value": "ListTasks" },
+    { "field": "count(*)", "value": "161" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeEgressOnlyInternetGateways" },
+    { "field": "count(*)", "value": "826" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTransitGateways" },
+    { "field": "count(*)", "value": "553" }
+  ],
+  [
+    { "field": "eventSource", "value": "rum.amazonaws.com" },
+    { "field": "eventName", "value": "ListAppMonitors" },
+    { "field": "count(*)", "value": "112" }
+  ],
+  [
+    { "field": "eventSource", "value": "iot.amazonaws.com" },
+    { "field": "eventName", "value": "ListMitigationActions" },
+    { "field": "count(*)", "value": "49" }
+  ],
+  [
+    { "field": "eventSource", "value": "iot.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAccountAuditConfiguration" },
+    { "field": "count(*)", "value": "22" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "ListEndpoints" },
+    { "field": "count(*)", "value": "111" }
+  ],
+  [
+    { "field": "eventSource", "value": "iot.amazonaws.com" },
+    { "field": "eventName", "value": "ListRoleAliases" },
+    { "field": "count(*)", "value": "78" }
+  ],
+  [
+    { "field": "eventSource", "value": "sagemaker.amazonaws.com" },
+    { "field": "eventName", "value": "ListCodeRepositories" },
+    { "field": "count(*)", "value": "472" }
+  ],
+  [
+    { "field": "eventSource", "value": "iot.amazonaws.com" },
+    { "field": "eventName", "value": "ListScheduledAudits" },
+    { "field": "count(*)", "value": "22" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "ListStorageLensConfigurations" },
+    { "field": "count(*)", "value": "22" }
+  ],
+  [
+    { "field": "eventSource", "value": "iotevents.amazonaws.com" },
+    { "field": "eventName", "value": "ListInputs" },
+    { "field": "count(*)", "value": "147" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "DescribeVpcEndpointServiceConfigurations"
+    },
+    { "field": "count(*)", "value": "693" }
+  ],
+  [
+    { "field": "eventSource", "value": "sagemaker.amazonaws.com" },
+    { "field": "eventName", "value": "ListNotebookInstanceLifecycleConfigs" },
+    { "field": "count(*)", "value": "173" }
+  ],
+  [
+    { "field": "eventSource", "value": "appsync.amazonaws.com" },
+    { "field": "eventName", "value": "ListGraphqlApis" },
+    { "field": "count(*)", "value": "166" }
+  ],
+  [
+    { "field": "eventSource", "value": "dms.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeReplicationSubnetGroups" },
+    { "field": "count(*)", "value": "273" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "ListFunctions20150331" },
+    { "field": "count(*)", "value": "1585" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccountPublicAccessBlock" },
+    { "field": "count(*)", "value": "2690" }
+  ],
+  [
+    { "field": "eventSource", "value": "sagemaker.amazonaws.com" },
+    { "field": "eventName", "value": "ListWorkteams" },
+    { "field": "count(*)", "value": "168" }
+  ],
+  [
+    { "field": "eventSource", "value": "sagemaker.amazonaws.com" },
+    { "field": "eventName", "value": "ListNotebookInstances" },
+    { "field": "count(*)", "value": "268" }
+  ],
+  [
+    { "field": "eventSource", "value": "resiliencehub.amazonaws.com" },
+    { "field": "eventName", "value": "ListResiliencyPolicies" },
+    { "field": "count(*)", "value": "70" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "688" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeClusters" },
+    { "field": "count(*)", "value": "1097" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeRepositories" },
+    { "field": "count(*)", "value": "1193" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccountAuthorizationDetails" },
+    { "field": "count(*)", "value": "1249" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccountSummary" },
+    { "field": "count(*)", "value": "468" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListOpenIDConnectProviders" },
+    { "field": "count(*)", "value": "157" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeOrganization" },
+    { "field": "count(*)", "value": "403" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeRegisteredRegions" },
+    { "field": "count(*)", "value": "42" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetRole" },
+    { "field": "count(*)", "value": "7749" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListAccessKeys" },
+    { "field": "count(*)", "value": "372" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetServiceLinkedRoleDeletionStatus" },
+    { "field": "count(*)", "value": "199" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListUsers" },
+    { "field": "count(*)", "value": "249" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListGroups" },
+    { "field": "count(*)", "value": "162" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListRoles" },
+    { "field": "count(*)", "value": "606" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListAccountAliases" },
+    { "field": "count(*)", "value": "431" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListPolicies" },
+    { "field": "count(*)", "value": "783" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListSAMLProviders" },
+    { "field": "count(*)", "value": "152" }
+  ],
+  [
+    { "field": "eventSource", "value": "lightsail.amazonaws.com" },
+    { "field": "eventName", "value": "GetStaticIps" },
+    { "field": "count(*)", "value": "53" }
+  ],
+  [
+    { "field": "eventSource", "value": "lightsail.amazonaws.com" },
+    { "field": "eventName", "value": "GetDisks" },
+    { "field": "count(*)", "value": "98" }
+  ],
+  [
+    { "field": "eventSource", "value": "config.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeConformancePacks" },
+    { "field": "count(*)", "value": "324" }
+  ],
+  [
+    { "field": "eventSource", "value": "lightsail.amazonaws.com" },
+    { "field": "eventName", "value": "GetBuckets" },
+    { "field": "count(*)", "value": "52" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetPolicy" },
+    { "field": "count(*)", "value": "1094" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccountPasswordPolicy" },
+    { "field": "count(*)", "value": "281" }
+  ],
+  [
+    { "field": "eventSource", "value": "access-analyzer.amazonaws.com" },
+    { "field": "eventName", "value": "ValidatePolicy" },
+    { "field": "count(*)", "value": "179" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "SimulateCustomPolicy" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeQueryDefinitions" },
+    { "field": "count(*)", "value": "64" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "GetLogGroupFields" },
+    { "field": "count(*)", "value": "41" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "ReadFromRepository" },
+    { "field": "count(*)", "value": "2217" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "GetRepositoryEndpoint" },
+    { "field": "count(*)", "value": "847" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "GetAuthorizationToken" },
+    { "field": "count(*)", "value": "1365" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicequotas.amazonaws.com" },
+    { "field": "eventName", "value": "ListAWSDefaultServiceQuotas" },
+    { "field": "count(*)", "value": "50" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicequotas.amazonaws.com" },
+    { "field": "eventName", "value": "ListServiceQuotas" },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicequotas.amazonaws.com" },
+    { "field": "eventName", "value": "ListRequestedServiceQuotaChangeHistory" },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicequotas.amazonaws.com" },
+    { "field": "eventName", "value": "ListServices" },
+    { "field": "count(*)", "value": "16" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "GetLogRecord" },
+    { "field": "count(*)", "value": "227" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListRolePolicies" },
+    { "field": "count(*)", "value": "2244" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListAttachedRolePolicies" },
+    { "field": "count(*)", "value": "2704" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListInstanceProfilesForRole" },
+    { "field": "count(*)", "value": "487" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListRoleTags" },
+    { "field": "count(*)", "value": "159" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "StopQuery" },
+    { "field": "count(*)", "value": "9" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListEntitiesForPolicy" },
+    { "field": "count(*)", "value": "9923" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetGroup" },
+    { "field": "count(*)", "value": "498" }
+  ],
+  [
+    { "field": "eventSource", "value": "tagging.amazonaws.com" },
+    { "field": "eventName", "value": "GetResources" },
+    { "field": "count(*)", "value": "213" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccountSettings20160819" },
+    { "field": "count(*)", "value": "1422" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "GetTemplate" },
+    { "field": "count(*)", "value": "324" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "GetFunction20150331v2" },
+    { "field": "count(*)", "value": "3223" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "ListProvisionedConcurrencyConfigs" },
+    { "field": "count(*)", "value": "174" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "GetFunctionEventInvokeConfig" },
+    { "field": "count(*)", "value": "175" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "ListStackResources" },
+    { "field": "count(*)", "value": "151" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeStacks" },
+    { "field": "count(*)", "value": "5822" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "ListVersionsByFunction20150331" },
+    { "field": "count(*)", "value": "330" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "ListAliases20150331" },
+    { "field": "count(*)", "value": "177" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "ListTags20170331" },
+    { "field": "count(*)", "value": "300" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "ListFunctionUrlConfigs" },
+    { "field": "count(*)", "value": "90" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "GetRuntimeManagementConfig" },
+    { "field": "count(*)", "value": "37" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeStackResources" },
+    { "field": "count(*)", "value": "187" }
+  ],
+  [
+    { "field": "eventSource", "value": "pipes.amazonaws.com" },
+    { "field": "eventName", "value": "ListPipes" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "CreateLogStream" },
+    { "field": "count(*)", "value": "254426" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTimeToLive" },
+    { "field": "count(*)", "value": "291" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "GetLogEvents" },
+    { "field": "count(*)", "value": "281" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "ListContributorInsights" },
+    { "field": "count(*)", "value": "42" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeGlobalTable" },
+    { "field": "count(*)", "value": "38" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeStackEvents" },
+    { "field": "count(*)", "value": "5478" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeChangeSet" },
+    { "field": "count(*)", "value": "685" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "GetFunctionCodeSigningConfig" },
+    { "field": "count(*)", "value": "427" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateFunctionCode20150331v2" },
+    { "field": "count(*)", "value": "250" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "ExecuteChangeSet" },
+    { "field": "count(*)", "value": "153" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "CreateChangeSet" },
+    { "field": "count(*)", "value": "172" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteChangeSet" },
+    { "field": "count(*)", "value": "71" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "GetParameter" },
+    { "field": "count(*)", "value": "1838910" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "GetParameters" },
+    { "field": "count(*)", "value": "195" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeScalableTargets" },
+    { "field": "count(*)", "value": "181" }
+  ],
+  [
+    { "field": "eventSource", "value": "dax.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeClusters" },
+    { "field": "count(*)", "value": "30" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetPolicyVersion" },
+    { "field": "count(*)", "value": "530" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetRolePolicy" },
+    { "field": "count(*)", "value": "2656" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "ListEventSourceMappings20150331" },
+    { "field": "count(*)", "value": "311" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "GetPolicy20150331" },
+    { "field": "count(*)", "value": "35" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "ListRules" },
+    { "field": "count(*)", "value": "101" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "ListLayers20181031" },
+    { "field": "count(*)", "value": "99" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "ListTargetsByRule" },
+    { "field": "count(*)", "value": "265" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetObject" },
+    { "field": "count(*)", "value": "25929" }
+  ],
+  [
+    { "field": "eventSource", "value": "codebuild.amazonaws.com" },
+    { "field": "eventName", "value": "BatchGetBuilds" },
+    { "field": "count(*)", "value": "398" }
+  ],
+  [
+    { "field": "eventSource", "value": "codepipeline.amazonaws.com" },
+    { "field": "eventName", "value": "GetPipelineState" },
+    { "field": "count(*)", "value": "1147" }
+  ],
+  [
+    { "field": "eventSource", "value": "codepipeline.amazonaws.com" },
+    { "field": "eventName", "value": "GetPipelineExecution" },
+    { "field": "count(*)", "value": "1513" }
+  ],
+  [
+    { "field": "eventSource", "value": "codebuild.amazonaws.com" },
+    { "field": "eventName", "value": "BatchGetProjects" },
+    { "field": "count(*)", "value": "192" }
+  ],
+  [
+    { "field": "eventSource", "value": "codebuild.amazonaws.com" },
+    { "field": "eventName", "value": "ListBuildsForProject" },
+    { "field": "count(*)", "value": "28" }
+  ],
+  [
+    { "field": "eventSource", "value": "codebuild.amazonaws.com" },
+    { "field": "eventName", "value": "StartBuild" },
+    { "field": "count(*)", "value": "141" }
+  ],
+  [
+    { "field": "eventSource", "value": "codepipeline.amazonaws.com" },
+    { "field": "eventName", "value": "PutApprovalResult" },
+    { "field": "count(*)", "value": "67" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "DescribePolicy" },
+    { "field": "count(*)", "value": "213" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "UpdatePolicy" },
+    { "field": "count(*)", "value": "52" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "1093" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "ListParents" },
+    { "field": "count(*)", "value": "904" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "ListAccountsForParent" },
+    { "field": "count(*)", "value": "614" }
+  ],
+  [
+    { "field": "eventSource", "value": "codepipeline.amazonaws.com" },
+    { "field": "eventName", "value": "ListActionExecutions" },
+    { "field": "count(*)", "value": "24" }
+  ],
+  [
+    { "field": "eventSource", "value": "codepipeline.amazonaws.com" },
+    { "field": "eventName", "value": "ListPipelineExecutions" },
+    { "field": "count(*)", "value": "93" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListAccountAssignments" },
+    { "field": "count(*)", "value": "466" }
+  ],
+  [
+    { "field": "eventSource", "value": "identitystore.amazonaws.com" },
+    { "field": "eventName", "value": "ListGroups" },
+    { "field": "count(*)", "value": "98" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "DescribePermissionSet" },
+    { "field": "count(*)", "value": "145" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListInstances" },
+    { "field": "count(*)", "value": "163" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "108" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsLogGroup" },
+    { "field": "count(*)", "value": "641" }
+  ],
+  [
+    { "field": "eventSource", "value": "codepipeline.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "95" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "88" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "GetInlinePolicyForPermissionSet" },
+    { "field": "count(*)", "value": "107" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeRule" },
+    { "field": "count(*)", "value": "265" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GetRepository" },
+    { "field": "count(*)", "value": "107" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "UploadArchive" },
+    { "field": "count(*)", "value": "74" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GetBranch" },
+    { "field": "count(*)", "value": "2953" }
+  ],
+  [
+    { "field": "eventSource", "value": "codepipeline.amazonaws.com" },
+    { "field": "eventName", "value": "StartPipelineExecution" },
+    { "field": "count(*)", "value": "66" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GetUploadArchiveStatus" },
+    { "field": "count(*)", "value": "152" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GetCommit" },
+    { "field": "count(*)", "value": "3000" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GetBlob" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GetReferences" },
+    { "field": "count(*)", "value": "18" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GetObjectIdentifier" },
+    { "field": "count(*)", "value": "73" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "PutFile" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "ListTargetsForPolicy" },
+    { "field": "count(*)", "value": "247" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAccount" },
+    { "field": "count(*)", "value": "399" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeOrganizationalUnit" },
+    { "field": "count(*)", "value": "555" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "ListRoots" },
+    { "field": "count(*)", "value": "147" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "ListAccounts" },
+    { "field": "count(*)", "value": "136" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "ListAWSServiceAccessForOrganization" },
+    { "field": "count(*)", "value": "94" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetRoutes" },
+    { "field": "count(*)", "value": "43" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetRestApis" },
+    { "field": "count(*)", "value": "248" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetStages" },
+    { "field": "count(*)", "value": "575" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetUsagePlans" },
+    { "field": "count(*)", "value": "109" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetRestApi" },
+    { "field": "count(*)", "value": "139" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetModels" },
+    { "field": "count(*)", "value": "191" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetApi" },
+    { "field": "count(*)", "value": "48" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "ListUserPools" },
+    { "field": "count(*)", "value": "204" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetAuthorizers" },
+    { "field": "count(*)", "value": "128" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "ListRepositories" },
+    { "field": "count(*)", "value": "63" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GetTree" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "BatchGetRepositories" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccount" },
+    { "field": "count(*)", "value": "149" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetApis" },
+    { "field": "count(*)", "value": "232" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteLogStream" },
+    { "field": "count(*)", "value": "100" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "PutRolePolicy" },
+    { "field": "count(*)", "value": "239" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeContributorInsights" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeKinesisStreamingDestination" },
+    { "field": "count(*)", "value": "14" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "Encrypt" },
+    { "field": "count(*)", "value": "3490" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateFunctionConfiguration20150331v2" },
+    { "field": "count(*)", "value": "84" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetIntegrations" },
+    { "field": "count(*)", "value": "10" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "AddPermission20150331v2" },
+    { "field": "count(*)", "value": "100" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "PutTargets" },
+    { "field": "count(*)", "value": "67" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "CreateLogGroup" },
+    { "field": "count(*)", "value": "245" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "CreateFunction20150331" },
+    { "field": "count(*)", "value": "557" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "PutRetentionPolicy" },
+    { "field": "count(*)", "value": "122" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "PutRule" },
+    { "field": "count(*)", "value": "65" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "AttachRolePolicy" },
+    { "field": "count(*)", "value": "303" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "CreateRole" },
+    { "field": "count(*)", "value": "516" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "CreateGrant" },
+    { "field": "count(*)", "value": "643" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudtrail.amazonaws.com" },
+    { "field": "eventName", "value": "GetTrailStatus" },
+    { "field": "count(*)", "value": "57" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudtrail.amazonaws.com" },
+    { "field": "eventName", "value": "LookupEvents" },
+    { "field": "count(*)", "value": "48" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "ListDelegatedAdministrators" },
+    { "field": "count(*)", "value": "991" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "CreateStage" },
+    { "field": "count(*)", "value": "15" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetIntegration" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetVpcLinks" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetRouteResponses" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetIntegrationResponses" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateContinuousBackups" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "TagResource" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "dynamodb.amazonaws.com" },
+    { "field": "eventName", "value": "CreateTable" },
+    { "field": "count(*)", "value": "56" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "CreateRoute" },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "CreateIntegration" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "CreateApi" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "CreateEventBus" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "ReEncrypt" },
+    { "field": "count(*)", "value": "90" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeImages" },
+    { "field": "count(*)", "value": "2544" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "GetChange" },
+    { "field": "count(*)", "value": "1049" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "CreateHostedZone" },
+    { "field": "count(*)", "value": "38" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "ChangeTagsForResource" },
+    { "field": "count(*)", "value": "30" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "ListHostedZonesByName" },
+    { "field": "count(*)", "value": "169" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "CreateTopic" },
+    { "field": "count(*)", "value": "15" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "ListSubscriptionsByTopic" },
+    { "field": "count(*)", "value": "40" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "GetDataProtectionPolicy" },
+    { "field": "count(*)", "value": "22" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "ListMultiRegionAccessPoints" },
+    { "field": "count(*)", "value": "331" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketOwnershipControls" },
+    { "field": "count(*)", "value": "733" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "ListAccessPoints" },
+    { "field": "count(*)", "value": "4229" }
+  ],
+  [
+    { "field": "eventSource", "value": "acm.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeCertificate" },
+    { "field": "count(*)", "value": "1627" }
+  ],
+  [
+    { "field": "eventSource", "value": "acm.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForCertificate" },
+    { "field": "count(*)", "value": "807" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "GetHostedZone" },
+    { "field": "count(*)", "value": "3012" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "ListResourceRecordSets" },
+    { "field": "count(*)", "value": "2561" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "ListHostedZones" },
+    { "field": "count(*)", "value": "509" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetOpenIDConnectProvider" },
+    { "field": "count(*)", "value": "184" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "811" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudfront.amazonaws.com" },
+    { "field": "eventName", "value": "GetDistribution" },
+    { "field": "count(*)", "value": "673" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudfront.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "34" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudfront.amazonaws.com" },
+    { "field": "eventName", "value": "GetCloudFrontOriginAccessIdentity" },
+    { "field": "count(*)", "value": "51" }
+  ],
+  [
+    { "field": "eventSource", "value": "support.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTrustedAdvisorChecks" },
+    { "field": "count(*)", "value": "91" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetBucketPolicyStatus" },
+    { "field": "count(*)", "value": "3877" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetStorageLensDashboardDataInternal" },
+    { "field": "count(*)", "value": "501" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "GetStorageLensConfiguration" },
+    { "field": "count(*)", "value": "523" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "GetBucketIntelligentTieringConfiguration"
+    },
+    { "field": "count(*)", "value": "46" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "PutBucketPolicy" },
+    { "field": "count(*)", "value": "73" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeInstanceAttribute" },
+    { "field": "count(*)", "value": "47325" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeInstanceStatus" },
+    { "field": "count(*)", "value": "49006" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeInstanceCreditSpecifications" },
+    { "field": "count(*)", "value": "449" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeClassicLinkInstances" },
+    { "field": "count(*)", "value": "300" }
+  ],
+  [
+    { "field": "eventSource", "value": "compute-optimizer.amazonaws.com" },
+    { "field": "eventName", "value": "GetEnrollmentStatus" },
+    { "field": "count(*)", "value": "323" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeSecurityGroupRules" },
+    { "field": "count(*)", "value": "194" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeInstanceInformation" },
+    { "field": "count(*)", "value": "332" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetInstanceProfile" },
+    { "field": "count(*)", "value": "603" }
+  ],
+  [
+    { "field": "eventSource", "value": "access-analyzer.amazonaws.com" },
+    { "field": "eventName", "value": "ListPolicyGenerations" },
+    { "field": "count(*)", "value": "170" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeVpcAttribute" },
+    { "field": "count(*)", "value": "558" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTags" },
+    { "field": "count(*)", "value": "1407" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateRoute" },
+    { "field": "count(*)", "value": "220" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeManagedPrefixLists" },
+    { "field": "count(*)", "value": "67" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53resolver.amazonaws.com" },
+    { "field": "eventName", "value": "ListFirewallRuleGroupAssociations" },
+    { "field": "count(*)", "value": "57" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "AttachInternetGateway" },
+    { "field": "count(*)", "value": "42" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateInternetGateway" },
+    { "field": "count(*)", "value": "42" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDhcpOptions" },
+    { "field": "count(*)", "value": "274" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeInstanceTypes" },
+    { "field": "count(*)", "value": "973" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeRegions" },
+    { "field": "count(*)", "value": "148" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "GetSubnetCidrReservations" },
+    { "field": "count(*)", "value": "46" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "RunInstances" },
+    { "field": "count(*)", "value": "41626" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateSecurityGroup" },
+    { "field": "count(*)", "value": "214" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "AuthorizeSecurityGroupIngress" },
+    { "field": "count(*)", "value": "225" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "AddRoleToInstanceProfile" },
+    { "field": "count(*)", "value": "57" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListInstanceProfiles" },
+    { "field": "count(*)", "value": "34" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "CreateInstanceProfile" },
+    { "field": "count(*)", "value": "57" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "SharedSnapshotVolumeCreated" },
+    { "field": "count(*)", "value": "46606" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "ModifySubnetAttribute" },
+    { "field": "count(*)", "value": "509" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeCoipPools" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateSubnet" },
+    { "field": "count(*)", "value": "288" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAvailabilityZones" },
+    { "field": "count(*)", "value": "310" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateVpc" },
+    { "field": "count(*)", "value": "43" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeIpamPools" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeSnapshots" },
+    { "field": "count(*)", "value": "252" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "GetEbsEncryptionByDefault" },
+    { "field": "count(*)", "value": "64" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeKeyPairs" },
+    { "field": "count(*)", "value": "170" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeInstanceTypeOfferings" },
+    { "field": "count(*)", "value": "43" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeIpv6Pools" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeVolumeStatus" },
+    { "field": "count(*)", "value": "522" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribePlacementGroups" },
+    { "field": "count(*)", "value": "117" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "ListStacks" },
+    { "field": "count(*)", "value": "1745" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "GetStackPolicy" },
+    { "field": "count(*)", "value": "59" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "PublishLayerVersion20181031" },
+    { "field": "count(*)", "value": "18" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteStack" },
+    { "field": "count(*)", "value": "72" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "PutBucketTagging" },
+    { "field": "count(*)", "value": "29" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteRole" },
+    { "field": "count(*)", "value": "356" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "DetachRolePolicy" },
+    { "field": "count(*)", "value": "218" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteRolePolicy" },
+    { "field": "count(*)", "value": "130" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "PutBucketPublicAccessBlock" },
+    { "field": "count(*)", "value": "90" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "PutBucketEncryption" },
+    { "field": "count(*)", "value": "66" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "CreateBucket" },
+    { "field": "count(*)", "value": "94" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteFunction20150331" },
+    { "field": "count(*)", "value": "375" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteLayerVersion20181031" },
+    { "field": "count(*)", "value": "16" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudtrail.amazonaws.com" },
+    { "field": "eventName", "value": "GetEventSelectors" },
+    { "field": "count(*)", "value": "100" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteBucket" },
+    { "field": "count(*)", "value": "110" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateRole" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListDirectoryAssociations" },
+    { "field": "count(*)", "value": "145" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso-directory.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDirectory" },
+    { "field": "count(*)", "value": "29" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso-directory.amazonaws.com" },
+    { "field": "eventName", "value": "ListExternalIdPCertificates" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListPermissionSetsProvisionedToAccount" },
+    { "field": "count(*)", "value": "37" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "ListAccountsForProvisionedPermissionSet"
+    },
+    { "field": "count(*)", "value": "43" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListPermissionSets" },
+    { "field": "count(*)", "value": "14" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "GetSSOStatus" },
+    { "field": "count(*)", "value": "142" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "GetMfaDeviceManagementForDirectory" },
+    { "field": "count(*)", "value": "26" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "DescribeInstanceAccessControlAttributeConfiguration"
+    },
+    { "field": "count(*)", "value": "10" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "GetSsoConfiguration" },
+    { "field": "count(*)", "value": "43" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso-directory.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "ListExternalIdPConfigurationsForDirectory"
+    },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListPoliciesGrantingServiceAccess" },
+    { "field": "count(*)", "value": "17" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "TagRole" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetServiceLastAccessedDetails" },
+    { "field": "count(*)", "value": "237" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GenerateServiceLastAccessedDetails" },
+    { "field": "count(*)", "value": "119" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "TagResource20170331v2" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "ListResourceTags" },
+    { "field": "count(*)", "value": "268" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "GetKeyRotationStatus" },
+    { "field": "count(*)", "value": "228" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "CreateKey" },
+    { "field": "count(*)", "value": "15" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "ListRepositories" },
+    { "field": "count(*)", "value": "54" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "TerminateInstances" },
+    { "field": "count(*)", "value": "46654" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "OpenDataChannel" },
+    { "field": "count(*)", "value": "9" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateInstanceInformation" },
+    { "field": "count(*)", "value": "103291" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "ListInstanceAssociations" },
+    { "field": "count(*)", "value": "606" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "GetConnectionStatus" },
+    { "field": "count(*)", "value": "84" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeSessions" },
+    { "field": "count(*)", "value": "182" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "StartSession" },
+    { "field": "count(*)", "value": "64" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "RebootInstances" },
+    { "field": "count(*)", "value": "9" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "AssociateIamInstanceProfile" },
+    { "field": "count(*)", "value": "10" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeIamInstanceProfileAssociations" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetLoginProfile" },
+    { "field": "count(*)", "value": "149" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccessKeyLastUsed" },
+    { "field": "count(*)", "value": "138" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListMFADevices" },
+    { "field": "count(*)", "value": "257" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListGroupsForUser" },
+    { "field": "count(*)", "value": "207" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "InitiateAuth" },
+    { "field": "count(*)", "value": "3858" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "GetAuthorizationToken" },
+    { "field": "count(*)", "value": "6499" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "BatchGetImage" },
+    { "field": "count(*)", "value": "5523" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "GetDownloadUrlForLayer" },
+    { "field": "count(*)", "value": "3520" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "InitiateLayerUpload" },
+    { "field": "count(*)", "value": "1650" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "UploadLayerPart" },
+    { "field": "count(*)", "value": "6718" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "PutImage" },
+    { "field": "count(*)", "value": "481" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "BatchCheckLayerAvailability" },
+    { "field": "count(*)", "value": "4557" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "CompleteLayerUpload" },
+    { "field": "count(*)", "value": "1467" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "AdminGetUser" },
+    { "field": "count(*)", "value": "92" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "AdminUpdateUserAttributes" },
+    { "field": "count(*)", "value": "199" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "AdminCreateUser" },
+    { "field": "count(*)", "value": "135" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "ListUsers" },
+    { "field": "count(*)", "value": "147" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "AdminSetUserPassword" },
+    { "field": "count(*)", "value": "123" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "AdminDeleteUser" },
+    { "field": "count(*)", "value": "123" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetUserPolicy" },
+    { "field": "count(*)", "value": "151" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "PutUserPolicy" },
+    { "field": "count(*)", "value": "20" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetUser" },
+    { "field": "count(*)", "value": "185" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListUserPolicies" },
+    { "field": "count(*)", "value": "78" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListAttachedUserPolicies" },
+    { "field": "count(*)", "value": "38" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListUserTags" },
+    { "field": "count(*)", "value": "28" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListSigningCertificates" },
+    { "field": "count(*)", "value": "82" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "ListAliases" },
+    { "field": "count(*)", "value": "327" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "GetSubscriptionAttributes" },
+    { "field": "count(*)", "value": "26" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "GetUser" },
+    { "field": "count(*)", "value": "159" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "RespondToAuthChallenge" },
+    { "field": "count(*)", "value": "45" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "CreateAccessKey" },
+    { "field": "count(*)", "value": "17" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListSSHPublicKeys" },
+    { "field": "count(*)", "value": "28" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListServiceSpecificCredentials" },
+    { "field": "count(*)", "value": "46" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeImageReplicationStatus" },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "GetRegistryScanningConfiguration" },
+    { "field": "count(*)", "value": "318" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "BatchGetRepositoryScanningConfiguration"
+    },
+    { "field": "count(*)", "value": "298" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeImages" },
+    { "field": "count(*)", "value": "251" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "DescribePullThroughCacheRules" },
+    { "field": "count(*)", "value": "162" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "BatchDeleteImage" },
+    { "field": "count(*)", "value": "46" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr-public.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeRegistries" },
+    { "field": "count(*)", "value": "71" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr-public.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeRepositories" },
+    { "field": "count(*)", "value": "66" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "Unsubscribe" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "Subscribe" },
+    { "field": "count(*)", "value": "28" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "PutBucketCors" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "ListSubscriptions" },
+    { "field": "count(*)", "value": "96" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "ListPlatformApplications" },
+    { "field": "count(*)", "value": "28" }
+  ],
+  [
+    { "field": "eventSource", "value": "auditmanager.amazonaws.com" },
+    { "field": "eventName", "value": "ListAssessments" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteRepository" },
+    { "field": "count(*)", "value": "17" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteTopic" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeReport" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "GetReservationUtilization" },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "GetDimensionValues" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "GetReservationPurchaseRecommendation" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccountInformation" },
+    { "field": "count(*)", "value": "37" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetPaymentPreferences" },
+    { "field": "count(*)", "value": "15" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetTotal" },
+    { "field": "count(*)", "value": "259" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetCommercialInvoicesForBillingPeriod" },
+    { "field": "count(*)", "value": "27" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetTaxRegistration" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetBillsForBillingPeriod" },
+    { "field": "count(*)", "value": "37" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetBillingNotifications" },
+    { "field": "count(*)", "value": "39" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "ListStackSets" },
+    { "field": "count(*)", "value": "141" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeStackSet" },
+    { "field": "count(*)", "value": "71" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "ListStackInstances" },
+    { "field": "count(*)", "value": "85" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "CloseAccount" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "CloseAccountResult" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "GetTemplateSummary" },
+    { "field": "count(*)", "value": "108" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "ListStackSetOperations" },
+    { "field": "count(*)", "value": "79" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "CreateAccountResult" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "ListCreateAccountStatus" },
+    { "field": "count(*)", "value": "44" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "CreateAccount" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "ListOrganizationalUnitsForParent" },
+    { "field": "count(*)", "value": "73" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "CreateStack" },
+    { "field": "count(*)", "value": "70" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "CreateStackInstances" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "CreateStackSet" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeOrganizationsAccess" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "schemas.amazonaws.com" },
+    { "field": "eventName", "value": "ListSchemas" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteStateMachine" },
+    { "field": "count(*)", "value": "127" }
+  ],
+  [
+    { "field": "eventSource", "value": "config.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeConfigurationRecorders" },
+    { "field": "count(*)", "value": "90" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DeletePortfolioShare" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DeletePortfolio" },
+    { "field": "count(*)", "value": "9" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DisassociateProductFromPortfolio" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteProduct" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "monitoring.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAnomalyDetectors" },
+    { "field": "count(*)", "value": "65" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeExecution" },
+    { "field": "count(*)", "value": "139" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "StartExecution" },
+    { "field": "count(*)", "value": "95" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "GetExecutionHistory" },
+    { "field": "count(*)", "value": "602" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeStateMachineForExecution" },
+    { "field": "count(*)", "value": "99" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "ListExecutions" },
+    { "field": "count(*)", "value": "321" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateStateMachine" },
+    { "field": "count(*)", "value": "18" }
+  ],
+  [
+    { "field": "eventSource", "value": "states.amazonaws.com" },
+    { "field": "eventName", "value": "CreateStateMachine" },
+    { "field": "count(*)", "value": "132" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetTaxInvoicesMetadata" },
+    { "field": "count(*)", "value": "26" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccountBillingRole" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccountEDPStatus" },
+    { "field": "count(*)", "value": "29" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetConsolidatedBillingFamilySummary" },
+    { "field": "count(*)", "value": "29" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "RotateKey" },
+    { "field": "count(*)", "value": "36" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListPolicyVersions" },
+    { "field": "count(*)", "value": "161" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "CreatePolicy" },
+    { "field": "count(*)", "value": "83" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeScalingPolicies" },
+    { "field": "count(*)", "value": "192" }
+  ],
+  [
+    { "field": "eventSource", "value": "monitoring.amazonaws.com" },
+    { "field": "eventName", "value": "PutMetricAlarm" },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "monitoring.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAlarmHistory" },
+    { "field": "count(*)", "value": "368" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "GetAnomalyMonitors" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "GetSavingsPlansPurchaseRecommendation" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "GetSavingsPlansUtilizationDetails" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "GetAnomalySubscriptions" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "ce.amazonaws.com" },
+    { "field": "eventName", "value": "GetAnomalies" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "budgets.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeBudgets" },
+    { "field": "count(*)", "value": "117" }
+  ],
+  [
+    { "field": "eventSource", "value": "budgets.amazonaws.com" },
+    { "field": "eventName", "value": "GetAllSnapshotReports" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconductor.amazonaws.com" },
+    { "field": "eventName", "value": "ListBillingGroups" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetBillingPreferences" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetLegacyReportPreferences" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetInvoiceEmailDeliveryPreferences" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetTaxInheritance" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccountMarketplaceGroup" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "taxconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetTaxExemptionTypes" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "AWSPaymentPortalService.DescribePaymentsDashboard"
+    },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "AWSPaymentPortalService.GetNotificationsForPage"
+    },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetDefaultCurrency" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetFreeTierAlertPreference" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "getTRNDataForAccounts" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeReportDefinitions" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "sustainability.amazonaws.com" },
+    { "field": "eventName", "value": "GetCarbonFootprintSummary" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetSupportedCountryCodes" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetCredits" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetBillingAddress" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetAllAccounts" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetAllAccountDetails" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "AWSPaymentInstrumentGateway.Get" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "AWSPaymentPortalService.GetBillingContactAddress"
+    },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetDefaultInstrument" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "AWSPaymentPortalService.GetAccountPreferences"
+    },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "AWSPaymentPortalService.ConvertCurrencies"
+    },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "AWSPaymentPreferenceGateway.Get" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetAllPurchaseOrders" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "RemoveRoleFromInstanceProfile" },
+    { "field": "count(*)", "value": "53" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteInstanceProfile" },
+    { "field": "count(*)", "value": "52" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteInternetGateway" },
+    { "field": "count(*)", "value": "43" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteVpc" },
+    { "field": "count(*)", "value": "229" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteSubnet" },
+    { "field": "count(*)", "value": "744" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteRouteTable" },
+    { "field": "count(*)", "value": "163" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DetachInternetGateway" },
+    { "field": "count(*)", "value": "264" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteSecurityGroup" },
+    { "field": "count(*)", "value": "639" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DisassociateRouteTable" },
+    { "field": "count(*)", "value": "245" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteRoute" },
+    { "field": "count(*)", "value": "215" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteAutoScalingGroup" },
+    { "field": "count(*)", "value": "38" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteLaunchTemplate" },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeScalingActivities" },
+    { "field": "count(*)", "value": "277421" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteParameter" },
+    { "field": "count(*)", "value": "23620" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "SetInstanceHealth" },
+    { "field": "count(*)", "value": "45626" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "SignalResource" },
+    { "field": "count(*)", "value": "46500" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "ListAssociations" },
+    { "field": "count(*)", "value": "69089" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateAutoScalingGroup" },
+    { "field": "count(*)", "value": "28" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteRule" },
+    { "field": "count(*)", "value": "35" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateFleet" },
+    { "field": "count(*)", "value": "35726" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "RemovePermission20150331v2" },
+    { "field": "count(*)", "value": "65" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteLogGroup" },
+    { "field": "count(*)", "value": "175" }
+  ],
+  [
+    { "field": "eventSource", "value": "events.amazonaws.com" },
+    { "field": "eventName", "value": "RemoveTargets" },
+    { "field": "count(*)", "value": "35" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteTags" },
+    { "field": "count(*)", "value": "31" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "SetDesiredCapacity" },
+    { "field": "count(*)", "value": "818" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "PutKeyPolicy" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso-directory.amazonaws.com" },
+    { "field": "eventName", "value": "GetMfaDeviceManagementForDirectory" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso-directory.amazonaws.com" },
+    { "field": "eventName", "value": "ListMfaDevicesForUser" },
+    { "field": "count(*)", "value": "14" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "SetTopicAttributes" },
+    { "field": "count(*)", "value": "42" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "TagResource" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "CreateAlias" },
+    { "field": "count(*)", "value": "10" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "PutBucketVersioning" },
+    { "field": "count(*)", "value": "34" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "PutBucketLifecycle" },
+    { "field": "count(*)", "value": "23" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "PutBucketNotification" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "CreateUser" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "TerminateInstanceInAutoScalingGroup" },
+    { "field": "count(*)", "value": "856" }
+  ],
+  [
+    { "field": "eventSource", "value": "support.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTrustedAdvisorCheckSummaries" },
+    { "field": "count(*)", "value": "49" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeUserPoolClient" },
+    { "field": "count(*)", "value": "196" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeUserPool" },
+    { "field": "count(*)", "value": "184" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "ListResourceServers" },
+    { "field": "count(*)", "value": "141" }
+  ],
+  [
+    { "field": "eventSource", "value": "wafv2.amazonaws.com" },
+    { "field": "eventName", "value": "GetWebACLForResource" },
+    { "field": "count(*)", "value": "20" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "ListUserImportJobs" },
+    { "field": "count(*)", "value": "72" }
+  ],
+  [
+    { "field": "eventSource", "value": "sns.amazonaws.com" },
+    { "field": "eventName", "value": "GetSMSSandboxAccountStatus" },
+    { "field": "count(*)", "value": "85" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "ListIdentityProviders" },
+    { "field": "count(*)", "value": "99" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "ListUserPoolClients" },
+    { "field": "count(*)", "value": "86" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-identity.amazonaws.com" },
+    { "field": "eventName", "value": "ListIdentityPools" },
+    { "field": "count(*)", "value": "97" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "GetUserPoolMfaConfig" },
+    { "field": "count(*)", "value": "56" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "AdminListGroupsForUser" },
+    { "field": "count(*)", "value": "35" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "ListGroups" },
+    { "field": "count(*)", "value": "42" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "PublishPackageVersion" },
+    { "field": "count(*)", "value": "38" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "SearchProductsAsAdmin" },
+    { "field": "count(*)", "value": "246" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListPortfolios" },
+    { "field": "count(*)", "value": "101" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListAcceptedPortfolioShares" },
+    { "field": "count(*)", "value": "181" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DescribePortfolioShares" },
+    { "field": "count(*)", "value": "128" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListProvisioningArtifacts" },
+    { "field": "count(*)", "value": "19" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListConstraintsForPortfolio" },
+    { "field": "count(*)", "value": "32" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeProductAsAdmin" },
+    { "field": "count(*)", "value": "25" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListPortfoliosForProduct" },
+    { "field": "count(*)", "value": "19" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagOptions" },
+    { "field": "count(*)", "value": "55" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "ListServiceActionsForProvisioningArtifact"
+    },
+    { "field": "count(*)", "value": "9" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeProvisioningArtifact" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListPrincipalsForPortfolio" },
+    { "field": "count(*)", "value": "44" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DescribePortfolio" },
+    { "field": "count(*)", "value": "37" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "SearchProducts" },
+    { "field": "count(*)", "value": "51" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeProduct" },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListLaunchPaths" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "SearchProvisionedProducts" },
+    { "field": "count(*)", "value": "15" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeRecord" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "TerminateProvisionedProduct" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListProvisionedProductPlans" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeProvisionedProduct" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListRecordHistory" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "GetTagOptionMigrationStatus" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ProvisionProduct" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeProvisioningParameters" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "AssociatePrincipalWithPortfolio" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListBudgetsForResource" },
+    { "field": "count(*)", "value": "25" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "DisassociatePrincipalFromPortfolio" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "AssociateProductWithPortfolio" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "CreatePortfolio" },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "ValidateTemplate" },
+    { "field": "count(*)", "value": "10" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "CreateProduct" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "health.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeEvents" },
+    { "field": "count(*)", "value": "15" }
+  ],
+  [
+    { "field": "eventSource", "value": "health.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "DescribeHealthServiceStatusForOrganization"
+    },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "health.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeEventDetails" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "health.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeEntityAggregates" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "license-manager.amazonaws.com" },
+    { "field": "eventName", "value": "ListReceivedLicenses" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "ListServiceActions" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "AcceptPortfolioShare" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "BatchGetCommits" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GetDifferences" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GetCommentsForComparedCommit" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "servicecatalog.amazonaws.com" },
+    { "field": "eventName", "value": "CreatePortfolioShare" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "296" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "GetLifecyclePolicy" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "GetRepositoryPolicy" },
+    { "field": "count(*)", "value": "24" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "PutParameter" },
+    { "field": "count(*)", "value": "979" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "CreateRepository" },
+    { "field": "count(*)", "value": "27" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "SetRepositoryPolicy" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "organizations.amazonaws.com" },
+    { "field": "eventName", "value": "EnableAWSServiceAccess" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "ChangeResourceRecordSets" },
+    { "field": "count(*)", "value": "433" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteUserPoolDomain" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "GetUICustomization" },
+    { "field": "count(*)", "value": "10" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteUserPool" },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeUserPoolDomain" },
+    { "field": "count(*)", "value": "116" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "Error_GET" },
+    { "field": "count(*)", "value": "4609" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "Login_GET" },
+    { "field": "count(*)", "value": "45" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteUserPoolClient" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "CreateUserPoolClient" },
+    { "field": "count(*)", "value": "16" }
+  ],
+  [
+    { "field": "eventSource", "value": "wafv2.amazonaws.com" },
+    { "field": "eventName", "value": "ListWebACLs" },
+    { "field": "count(*)", "value": "52" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetResources" },
+    { "field": "count(*)", "value": "161" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetRequestValidators" },
+    { "field": "count(*)", "value": "104" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetDocumentationParts" },
+    { "field": "count(*)", "value": "80" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "PutIntegration" },
+    { "field": "count(*)", "value": "38" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateStage" },
+    { "field": "count(*)", "value": "17" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "ListEmailIdentities" },
+    { "field": "count(*)", "value": "89" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "PutMethod" },
+    { "field": "count(*)", "value": "38" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetDeployment" },
+    { "field": "count(*)", "value": "26" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "GetAccount" },
+    { "field": "count(*)", "value": "151" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "CreateUserPool" },
+    { "field": "count(*)", "value": "14" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetStage" },
+    { "field": "count(*)", "value": "29" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "CreateDeployment" },
+    { "field": "count(*)", "value": "46" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "PutIntegrationResponse" },
+    { "field": "count(*)", "value": "26" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "CreateServiceLinkedRole" },
+    { "field": "count(*)", "value": "68" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "PutMethodResponse" },
+    { "field": "count(*)", "value": "26" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "CreateResource" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "CreateRestApi" },
+    { "field": "count(*)", "value": "20" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "PutEmailIdentityMailFromAttributes" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "GetEmailIdentity" },
+    { "field": "count(*)", "value": "110" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "PutEmailIdentityDkimAttributes" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "PutEmailIdentityFeedbackAttributes" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "sqs.amazonaws.com" },
+    { "field": "eventName", "value": "SetQueueAttributes" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "ListTrafficPolicies" },
+    { "field": "count(*)", "value": "132" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53domains.amazonaws.com" },
+    { "field": "eventName", "value": "ListDomains" },
+    { "field": "count(*)", "value": "147" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53domains.amazonaws.com" },
+    { "field": "eventName", "value": "ListOperations" },
+    { "field": "count(*)", "value": "129" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "ListCidrCollections" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "GetTrafficPolicyInstanceCount" },
+    { "field": "count(*)", "value": "135" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "GetHostedZoneCount" },
+    { "field": "count(*)", "value": "306" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "GetHealthCheckCount" },
+    { "field": "count(*)", "value": "135" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "GetConfigurationSetEventDestinations" },
+    { "field": "count(*)", "value": "45" }
+  ],
+  [
+    { "field": "eventSource", "value": "sqs.amazonaws.com" },
+    { "field": "eventName", "value": "CreateQueue" },
+    { "field": "count(*)", "value": "36" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "GetConfigurationSet" },
+    { "field": "count(*)", "value": "45" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "CreateEmailIdentity" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "CreateConfigurationSetEventDestination" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "CreateConfigurationSet" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "GetIdentityNotificationAttributes" },
+    { "field": "count(*)", "value": "43" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "GetEmailIdentityPolicies" },
+    { "field": "count(*)", "value": "43" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "GetIdentityVerificationAttributes" },
+    { "field": "count(*)", "value": "211" }
+  ],
+  [
+    { "field": "eventSource", "value": "sqs.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteQueue" },
+    { "field": "count(*)", "value": "24" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteConfigurationSet" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteMethod" },
+    { "field": "count(*)", "value": "16" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteEmailIdentity" },
+    { "field": "count(*)", "value": "9" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteConfigurationSetEventDestination" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteResource" },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteRestApi" },
+    { "field": "count(*)", "value": "25" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteBucketPolicy" },
+    { "field": "count(*)", "value": "9" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteDeployment" },
+    { "field": "count(*)", "value": "15" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteStage" },
+    { "field": "count(*)", "value": "9" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeParameters" },
+    { "field": "count(*)", "value": "644" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeActiveReceiptRuleSet" },
+    { "field": "count(*)", "value": "74" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "GetDedicatedIps" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "ListReceiptRuleSets" },
+    { "field": "count(*)", "value": "36" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "ListReceiptFilters" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "ListDedicatedIpPools" },
+    { "field": "count(*)", "value": "16" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "ListSuppressedDestinations" },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "ListIdentities" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateUserPool" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "AWSPaymentPortalService.ContinueWidget" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "AWSPaymentPortalService.NotifyApprovalComplete"
+    },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "AWSPaymentPortalService.GetPaymentsDue" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "AWSPaymentPortalService.GetEligiblePaymentInstruments"
+    },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "AWSPaymentPortalService.GetEntitiesByIds"
+    },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "AWSPaymentPortalService.DescribeMakePaymentPage"
+    },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "MakePayment" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "PutAccountDetails" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "route53.amazonaws.com" },
+    { "field": "eventName", "value": "ListQueryLoggingConfigs" },
+    { "field": "count(*)", "value": "89" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateUserAttributes" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "apigateway.amazonaws.com" },
+    { "field": "eventName", "value": "GetClientCertificates" },
+    { "field": "count(*)", "value": "129" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GitPush" },
+    { "field": "count(*)", "value": "136" }
+  ],
+  [
+    { "field": "eventSource", "value": "codecommit.amazonaws.com" },
+    { "field": "eventName", "value": "GitPull" },
+    { "field": "count(*)", "value": "33" }
+  ],
+  [
+    { "field": "eventSource", "value": "ses.amazonaws.com" },
+    { "field": "eventName", "value": "GetIdentityDkimAttributes" },
+    { "field": "count(*)", "value": "27" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteKeyPair" },
+    { "field": "count(*)", "value": "15" }
+  ],
+  [
+    { "field": "eventSource", "value": "signin.amazonaws.com" },
+    { "field": "eventName", "value": "PasswordRecoveryCompleted" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListCloudFrontPublicKeys" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "signin.amazonaws.com" },
+    { "field": "eventName", "value": "PasswordRecoveryRequested" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "sts.amazonaws.com" },
+    { "field": "eventName", "value": "GetSessionToken" },
+    { "field": "count(*)", "value": "19" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateKeyPair" },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "discovery-marketplace.amazonaws.com" },
+    { "field": "eventName", "value": "GetSearchFacets" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "discovery-marketplace.amazonaws.com" },
+    { "field": "eventName", "value": "SearchListings" },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "TerminateSession" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "PutBucketAcl" },
+    { "field": "count(*)", "value": "70" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "ListObjectVersions" },
+    { "field": "count(*)", "value": "17" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudtrail.amazonaws.com" },
+    { "field": "eventName", "value": "GetInsightSelectors" },
+    { "field": "count(*)", "value": "32" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudtrail.amazonaws.com" },
+    { "field": "eventName", "value": "ListTags" },
+    { "field": "count(*)", "value": "55" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudtrail.amazonaws.com" },
+    { "field": "eventName", "value": "PutEventSelectors" },
+    { "field": "count(*)", "value": "24" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudtrail.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateTrail" },
+    { "field": "count(*)", "value": "9" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudtrail.amazonaws.com" },
+    { "field": "eventName", "value": "PutInsightSelectors" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "s3.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteObjects" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    {
+      "field": "eventSource",
+      "value": "route53-recovery-readiness.amazonaws.com"
+    },
+    { "field": "eventName", "value": "ListReadinessChecks" },
+    { "field": "count(*)", "value": "64" }
+  ],
+  [
+    {
+      "field": "eventSource",
+      "value": "route53-recovery-control-config.amazonaws.com"
+    },
+    { "field": "eventName", "value": "ListControlPanels" },
+    { "field": "count(*)", "value": "64" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteUser" },
+    { "field": "count(*)", "value": "10" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListVirtualMFADevices" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteUserPolicy" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteAccessKey" },
+    { "field": "count(*)", "value": "19" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteLoginProfile" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateAccessKey" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "ListContainerInstances" },
+    { "field": "count(*)", "value": "122" }
+  ],
+  [
+    { "field": "eventSource", "value": "billingconsole.amazonaws.com" },
+    { "field": "eventName", "value": "GetBillsForLinkedAccount" },
+    { "field": "count(*)", "value": "17" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "16" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DisableMetricsCollection" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "EnableMetricsCollection" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateLaunchTemplateVersion" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "serverlessrepo.amazonaws.com" },
+    { "field": "eventName", "value": "GetCloudFormationTemplate" },
+    { "field": "count(*)", "value": "75" }
+  ],
+  [
+    { "field": "eventSource", "value": "serverlessrepo.amazonaws.com" },
+    { "field": "eventName", "value": "CreateCloudFormationTemplate" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateStack" },
+    { "field": "count(*)", "value": "22" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "DeletePolicy" },
+    { "field": "count(*)", "value": "37" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "EstimateTemplateCost" },
+    { "field": "count(*)", "value": "26" }
+  ],
+  [
+    { "field": "eventSource", "value": "config.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeConfigurationRecorderStatus" },
+    { "field": "count(*)", "value": "14" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteStackSet" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteStackInstances" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudformation.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateStackSet" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDomain" },
+    { "field": "count(*)", "value": "156" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "ListTagsForResource" },
+    { "field": "count(*)", "value": "195" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeRepository" },
+    { "field": "count(*)", "value": "112" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeResourceServer" },
+    { "field": "count(*)", "value": "46" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "CreatePolicyVersion" },
+    { "field": "count(*)", "value": "20" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ProvisionPermissionSet" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "PutInlinePolicyToPermissionSet" },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "DescribePermissionSetProvisioningStatus"
+    },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "CreatePermissionSet" },
+    { "field": "count(*)", "value": "5" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "GetApplicationInstance" },
+    { "field": "count(*)", "value": "39" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListProfileAssociations" },
+    { "field": "count(*)", "value": "32" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "GetPermissionsBoundaryForPermissionSet" },
+    { "field": "count(*)", "value": "10" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListProfiles, GetProfile" },
+    { "field": "count(*)", "value": "22" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "ListCustomerManagedPolicyReferencesInPermissionSet"
+    },
+    { "field": "count(*)", "value": "4" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "AttachManagedPolicyToPermissionSet" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "UpdateApplicationProfileForAWSAccountInstance"
+    },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "ListManagedPoliciesInPermissionSet" },
+    { "field": "count(*)", "value": "15" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "DetachManagedPolicyFromPermissionSet" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "DescribeAccountAssignmentCreationStatus"
+    },
+    { "field": "count(*)", "value": "61" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso-directory.amazonaws.com" },
+    { "field": "eventName", "value": "SearchUsers" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    { "field": "eventName", "value": "CreateAccountAssignment" },
+    { "field": "count(*)", "value": "38" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "GetSAMLProvider" },
+    { "field": "count(*)", "value": "65" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateSAMLProvider" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso.amazonaws.com" },
+    {
+      "field": "eventName",
+      "value": "AttachCustomerManagedPolicyReferenceToPermissionSet"
+    },
+    { "field": "count(*)", "value": "8" }
+  ],
+  [
+    { "field": "eventSource", "value": "sso-directory.amazonaws.com" },
+    { "field": "eventName", "value": "SearchGroups" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudfront.amazonaws.com" },
+    { "field": "eventName", "value": "GetInvalidation" },
+    { "field": "count(*)", "value": "280" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudfront.amazonaws.com" },
+    { "field": "eventName", "value": "ListSavingsPlans" },
+    { "field": "count(*)", "value": "15" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudfront.amazonaws.com" },
+    { "field": "eventName", "value": "ListInvalidations" },
+    { "field": "count(*)", "value": "29" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteNetworkInterface" },
+    { "field": "count(*)", "value": "378" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "ListTaskDefinitions" },
+    { "field": "count(*)", "value": "417" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "DeregisterTaskDefinition" },
+    { "field": "count(*)", "value": "29" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "ListTasks" },
+    { "field": "count(*)", "value": "270" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteCluster" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTasks" },
+    { "field": "count(*)", "value": "304" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteService" },
+    { "field": "count(*)", "value": "19" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "GetManagedPrefixListEntries" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "ModifySecurityGroupRules" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateTags" },
+    { "field": "count(*)", "value": "478" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateNetworkInterface" },
+    { "field": "count(*)", "value": "215" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "AssociateRouteTable" },
+    { "field": "count(*)", "value": "247" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "CreateRouteTable" },
+    { "field": "count(*)", "value": "161" }
+  ],
+  [
+    { "field": "eventSource", "value": "codedeploy.amazonaws.com" },
+    { "field": "eventName", "value": "GetDeploymentConfig" },
+    { "field": "count(*)", "value": "17" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "CreateService" },
+    { "field": "count(*)", "value": "42" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "CreateCluster" },
+    { "field": "count(*)", "value": "25" }
+  ],
+  [
+    { "field": "eventSource", "value": "codedeploy.amazonaws.com" },
+    { "field": "eventName", "value": "ListDeploymentConfigs" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "ListAccountSettings" },
+    { "field": "count(*)", "value": "32" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecs.amazonaws.com" },
+    { "field": "eventName", "value": "RegisterTaskDefinition" },
+    { "field": "count(*)", "value": "28" }
+  ],
+  [
+    { "field": "eventSource", "value": "appmesh.amazonaws.com" },
+    { "field": "eventName", "value": "ListMeshes" },
+    { "field": "count(*)", "value": "10" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "ModifyInstanceAttribute" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "ds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDirectories" },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "discovery-marketplace.amazonaws.com" },
+    { "field": "eventName", "value": "GetListingView" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "GetPasswordData" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "GetConsoleOutput" },
+    { "field": "count(*)", "value": "23" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteRepository" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "ListDomains" },
+    { "field": "count(*)", "value": "65" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "GetDomainPermissionsPolicy" },
+    { "field": "count(*)", "value": "24" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteDomain" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "ListRepositoriesInDomain" },
+    { "field": "count(*)", "value": "35" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "GetRepositoryPermissionsPolicy" },
+    { "field": "count(*)", "value": "43" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "ListPackages" },
+    { "field": "count(*)", "value": "52" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "CreateRepository" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "AssociateExternalConnection" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "CreateDomain" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "UpdateRepository" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "PutRepositoryPermissionsPolicy" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "DescribePackage" },
+    { "field": "count(*)", "value": "34" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "DescribePackageVersion" },
+    { "field": "count(*)", "value": "31" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "ListPackageVersions" },
+    { "field": "count(*)", "value": "44" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "ListPackageVersionDependencies" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "codeartifact.amazonaws.com" },
+    { "field": "eventName", "value": "GetPackageVersionReadme" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "ecr.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeImageScanFindings" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "GetParameterHistory" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "logs.amazonaws.com" },
+    { "field": "eventName", "value": "TagLogGroup" },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "CreateOrUpdateTags" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeLifecycleHooks" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeWarmPool" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "ssm.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteParameters" },
+    { "field": "count(*)", "value": "115" }
+  ],
+  [
+    { "field": "eventSource", "value": "autoscaling.amazonaws.com" },
+    { "field": "eventName", "value": "PutScalingPolicy" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "tagging.amazonaws.com" },
+    { "field": "eventName", "value": "GetTagKeys" },
+    { "field": "count(*)", "value": "75" }
+  ],
+  [
+    { "field": "eventSource", "value": "compute-optimizer.amazonaws.com" },
+    { "field": "eventName", "value": "GetLambdaFunctionRecommendations" },
+    { "field": "count(*)", "value": "98" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "GetPolicy20150331v2" },
+    { "field": "count(*)", "value": "979" }
+  ],
+  [
+    { "field": "eventSource", "value": "lambda.amazonaws.com" },
+    { "field": "eventName", "value": "AddPermission20150331" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeCustomKeyStores" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "cloudhsm.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeClusters" },
+    { "field": "count(*)", "value": "2" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteSnapshot" },
+    { "field": "count(*)", "value": "54" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DeregisterImage" },
+    { "field": "count(*)", "value": "45" }
+  ],
+  [
+    { "field": "eventSource", "value": "kms.amazonaws.com" },
+    { "field": "eventName", "value": "DeleteKey" },
+    { "field": "count(*)", "value": "12" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "Token_POST" },
+    { "field": "count(*)", "value": "53" }
+  ],
+  [
+    { "field": "eventSource", "value": "cognito-idp.amazonaws.com" },
+    { "field": "eventName", "value": "SAML2Response_POST" },
+    { "field": "count(*)", "value": "1" }
+  ],
+  [
+    { "field": "eventSource", "value": "redshift.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeHsmClientCertificates" },
+    { "field": "count(*)", "value": "17" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDBParameterGroups" },
+    { "field": "count(*)", "value": "25" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeDBClusterParameterGroups" },
+    { "field": "count(*)", "value": "25" }
+  ],
+  [
+    { "field": "eventSource", "value": "ram.amazonaws.com" },
+    { "field": "eventName", "value": "GetResourceShares" },
+    { "field": "count(*)", "value": "23" }
+  ],
+  [
+    { "field": "eventSource", "value": "qldb.amazonaws.com" },
+    { "field": "eventName", "value": "ListLedgers" },
+    { "field": "count(*)", "value": "14" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeReservedDBInstances" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "rds.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeOptionGroups" },
+    { "field": "count(*)", "value": "23" }
+  ],
+  [
+    { "field": "eventSource", "value": "storagegateway.amazonaws.com" },
+    { "field": "eventName", "value": "ListGateways" },
+    { "field": "count(*)", "value": "7" }
+  ],
+  [
+    { "field": "eventSource", "value": "robomaker.amazonaws.com" },
+    { "field": "eventName", "value": "ListSimulationApplications" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "secretsmanager.amazonaws.com" },
+    { "field": "eventName", "value": "ListSecrets" },
+    { "field": "count(*)", "value": "28" }
+  ],
+  [
+    { "field": "eventSource", "value": "robomaker.amazonaws.com" },
+    { "field": "eventName", "value": "ListSimulationJobs" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "robomaker.amazonaws.com" },
+    { "field": "eventName", "value": "ListRobotApplications" },
+    { "field": "count(*)", "value": "3" }
+  ],
+  [
+    { "field": "eventSource", "value": "macie2.amazonaws.com" },
+    { "field": "eventName", "value": "ListCustomDataIdentifiers" },
+    { "field": "count(*)", "value": "25" }
+  ],
+  [
+    { "field": "eventSource", "value": "macie2.amazonaws.com" },
+    { "field": "eventName", "value": "ListMembers" },
+    { "field": "count(*)", "value": "33" }
+  ],
+  [
+    { "field": "eventSource", "value": "macie2.amazonaws.com" },
+    { "field": "eventName", "value": "ListFindingsFilters" },
+    { "field": "count(*)", "value": "32" }
+  ],
+  [
+    { "field": "eventSource", "value": "greengrass.amazonaws.com" },
+    { "field": "eventName", "value": "ListResourceDefinitions" },
+    { "field": "count(*)", "value": "18" }
+  ],
+  [
+    { "field": "eventSource", "value": "greengrass.amazonaws.com" },
+    { "field": "eventName", "value": "ListSubscriptionDefinitions" },
+    { "field": "count(*)", "value": "17" }
+  ],
+  [
+    { "field": "eventSource", "value": "iotanalytics.amazonaws.com" },
+    { "field": "eventName", "value": "ListDatasets" },
+    { "field": "count(*)", "value": "11" }
+  ],
+  [
+    { "field": "eventSource", "value": "macie2.amazonaws.com" },
+    { "field": "eventName", "value": "ListClassificationJobs" },
+    { "field": "count(*)", "value": "35" }
+  ],
+  [
+    { "field": "eventSource", "value": "greengrass.amazonaws.com" },
+    { "field": "eventName", "value": "ListGroups" },
+    { "field": "count(*)", "value": "18" }
+  ],
+  [
+    { "field": "eventSource", "value": "greengrass.amazonaws.com" },
+    { "field": "eventName", "value": "ListLoggerDefinitions" },
+    { "field": "count(*)", "value": "18" }
+  ],
+  [
+    { "field": "eventSource", "value": "glue.amazonaws.com" },
+    { "field": "eventName", "value": "ListTriggers" },
+    { "field": "count(*)", "value": "31" }
+  ],
+  [
+    { "field": "eventSource", "value": "glue.amazonaws.com" },
+    { "field": "eventName", "value": "ListCrawlers" },
+    { "field": "count(*)", "value": "33" }
+  ],
+  [
+    { "field": "eventSource", "value": "iam.amazonaws.com" },
+    { "field": "eventName", "value": "ListServerCertificates" },
+    { "field": "count(*)", "value": "6" }
+  ],
+  [
+    { "field": "eventSource", "value": "greengrass.amazonaws.com" },
+    { "field": "eventName", "value": "ListFunctionDefinitions" },
+    { "field": "count(*)", "value": "18" }
+  ],
+  [
+    { "field": "eventSource", "value": "greengrass.amazonaws.com" },
+    { "field": "eventName", "value": "ListConnectorDefinitions" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "greengrass.amazonaws.com" },
+    { "field": "eventName", "value": "ListCoreDefinitions" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "greengrass.amazonaws.com" },
+    { "field": "eventName", "value": "ListDeviceDefinitions" },
+    { "field": "count(*)", "value": "19" }
+  ],
+  [
+    { "field": "eventSource", "value": "forecast.amazonaws.com" },
+    { "field": "eventName", "value": "ListForecastExportJobs" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "forecast.amazonaws.com" },
+    { "field": "eventName", "value": "ListPredictors" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "glacier.amazonaws.com" },
+    { "field": "eventName", "value": "ListVaults" },
+    { "field": "count(*)", "value": "35" }
+  ],
+  [
+    { "field": "eventSource", "value": "forecast.amazonaws.com" },
+    { "field": "eventName", "value": "ListPredictorBacktestExportJobs" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "forecast.amazonaws.com" },
+    { "field": "eventName", "value": "ListForecasts" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "frauddetector.amazonaws.com" },
+    { "field": "eventName", "value": "GetExternalModels" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "frauddetector.amazonaws.com" },
+    { "field": "eventName", "value": "GetEntityTypes" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "frauddetector.amazonaws.com" },
+    { "field": "eventName", "value": "GetModels" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "frauddetector.amazonaws.com" },
+    { "field": "eventName", "value": "GetEventTypes" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "frauddetector.amazonaws.com" },
+    { "field": "eventName", "value": "GetDetectors" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "frauddetector.amazonaws.com" },
+    { "field": "eventName", "value": "GetVariables" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "frauddetector.amazonaws.com" },
+    { "field": "eventName", "value": "GetLabels" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "frauddetector.amazonaws.com" },
+    { "field": "eventName", "value": "GetOutcomes" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "forecast.amazonaws.com" },
+    { "field": "eventName", "value": "ListDatasetImportJobs" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "forecast.amazonaws.com" },
+    { "field": "eventName", "value": "ListDatasets" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "fsx.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeFileSystems" },
+    { "field": "count(*)", "value": "35" }
+  ],
+  [
+    { "field": "eventSource", "value": "forecast.amazonaws.com" },
+    { "field": "eventName", "value": "ListDatasetGroups" },
+    { "field": "count(*)", "value": "21" }
+  ],
+  [
+    { "field": "eventSource", "value": "elasticloadbalancing.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeTargetGroups" },
+    { "field": "count(*)", "value": "401" }
+  ],
+  [
+    { "field": "eventSource", "value": "elastic-inference.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeAccelerators" },
+    { "field": "count(*)", "value": "13" }
+  ],
+  [
+    { "field": "eventSource", "value": "elasticache.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeSnapshots" },
+    { "field": "count(*)", "value": "34" }
+  ],
+  [
+    { "field": "eventSource", "value": "elasticbeanstalk.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeApplications" },
+    { "field": "count(*)", "value": "40" }
+  ],
+  [
+    { "field": "eventSource", "value": "emr-containers.amazonaws.com" },
+    { "field": "eventName", "value": "ListVirtualClusters" },
+    { "field": "count(*)", "value": "33" }
+  ],
+  [
+    { "field": "eventSource", "value": "elasticmapreduce.amazonaws.com" },
+    { "field": "eventName", "value": "ListClusters" },
+    { "field": "count(*)", "value": "34" }
+  ],
+  [
+    { "field": "eventSource", "value": "elasticache.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeCacheClusters" },
+    { "field": "count(*)", "value": "34" }
+  ],
+  [
+    { "field": "eventSource", "value": "ec2.amazonaws.com" },
+    { "field": "eventName", "value": "DescribeSpotInstanceRequests" },
+    { "field": "count(*)", "value": "182" }
+  ]
+]

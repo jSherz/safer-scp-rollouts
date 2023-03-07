@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node-lts-strictest/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "inlineSourceMap": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "typeRoots": ["./node_modules/@types", "./typings"],
+    "outDir": "./dist",
+    "checkJs": false
+  },
+  "exclude": [".yarn", "coverage", "node_modules"]
+}
